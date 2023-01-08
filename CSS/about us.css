@@ -1,0 +1,27 @@
+.h1{
+font-size: xx-large ;
+color: black;
+font: bold;
+text-align: center;
+margin-left: 600px;
+}
+
+.h2{
+
+color: darkgoldenrod;
+font: bolder;
+font-size: larger;
+margin-left: 100px;
+}
+.div1{
+border: 2px solid;
+height: 200px;
+width: auto;
+background-color: darkgoldenrod
+
+
+}
+
+
+
+
