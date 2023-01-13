@@ -1,0 +1,120 @@
+.container{
+height: 2450px;
+width: 1360px;
+background-color: darkgray;
+border: 5px solid black;
+}
+.image1{
+margin-top: 30px;
+margin-left: 30px;
+height: 150px;
+width: 150px;
+
+}
+
+.h1{
+    
+font-size:100PX;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: center;text-shadow: green 10px 10px 15px;
+margin-left: 250px;
+color: darkslategrey;
+}
+.h2{
+font-size: 35px; text-decoration: underline;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: darkgreen;
+margin-left: 600px;
+
+}
+.h3{
+font-size: 20px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: darkgreen;
+
+}
+.h4{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkgreen;
+
+}
+.a{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+        
+
+.nav1{
+    display: inline-block;
+    margin-top: 0px;
+margin-left: 0px;
+padding: 1px 1px 1px 1px;
+
+
+border: 5px solid; 
+height: 500px;
+width: 1350px;
+font-size: medium;font-family: Arial, Helvetica, sans-serif;color: black;
+
+}
+.item{
+font-size: large;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: darkgreen;
+}
+.image2{
+    
+    
+border: 5px solid black;
+height: 700px;
+width: 1350px;
+
+
+
+}
+.map{
+height: 300px;
+width: 500px;
+float: right;
+margin-top: 30px;
+margin-right: 100px;
+
+}
+
+.p1,.p2,.p3{
+
+margin-left: 250px;
+margin-top: 70px;
+font-size: medium;
+text-decoration:underline;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+
+}
+.img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8,.img9,.img10,.img11,.img12,.img13{
+border-radius: 50%;
+height: 100px;
+}
+.p4{
+    margin-top: 200px;
+font-size: 40px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-image: url(/HTML/abc.jpg);
+height: 440px;
+width: 1300px;
+margin-left: 30px;
+}
+.symbol{
+    
+text-align: center;
+color: rgb(5, 5, 5);
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.d1, .d2, .d3, .d4, .d5, .d6, .d7, .d8, .d9, .d10, .d11, .d12, .d13{
+    display: inline-block;
+    text-align: center;
+}
