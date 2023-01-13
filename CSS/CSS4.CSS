@@ -1,0 +1,35 @@
+body{
+
+    margin-top: -15px;
+}
+
+.horizontalnav{
+background-color: black;
+width: 100%;
+margin: 0px;
+overflow: hidden;
+
+}
+.horizontalnav ul li{
+float: left;
+list-style: none;
+padding: 10px 15px 10px 15px;
+border-right: 2px solid white;
+
+}
+
+
+.horizontalnav ul li a{
+text-decoration: none;
+color: hotpink;
+
+}
+.horizontalnav ul li:hover{
+background-color:hotpink ;
+
+}
+
+
+
+
+}

@@ -1,0 +1,366 @@
+/* colors for the sustainability report */
+/* colors for widget trustpilot */
+/*
+$font-body: AvenirNextLTW01-Regular,helvetica,arial,sans-serif;
+$font-header: P22UndergroundW01-Mediu,helvetica,arial,sans-serif;
+*/
+.product-title--xs {
+  position: sticky;
+  top: 120px;
+  z-index: 2;
+  background-color: #fff;
+  padding: 8px 0px 5px 0;
+  border-bottom: 1px solid #e0e0e0; }
+  .product-title--xs h1 {
+    line-height: 1.2; }
+  .product-title--xs .product-reviews {
+    display: flex; }
+
+.reviews-wrapper {
+  text-align: center;
+  padding: 30px 12px;
+  border: 1px solid #e0e0e0; }
+  .reviews-wrapper h3 {
+    letter-spacing: 0.1em;
+    font-family: "Lato", helvetica, arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px; }
+
+.product_display {
+  width: 100%;
+  display: block; }
+  .product_display .product_details {
+    width: 100%;
+    margin-bottom: 20px; }
+    .product_display .product_details .product_description--lg {
+      display: none; }
+  .product_display .product_buy {
+    width: 100%; }
+    .product_display .product_buy .sold-out-mobile {
+      text-align: center;
+      font-weight: 700;
+      padding-top: 12px; }
+    .product_display .product_buy .sold-out {
+      display: none; }
+    .product_display .product_buy .prices-container {
+      position: fixed;
+      bottom: 0px;
+      left: 0;
+      width: 100%;
+      display: flex;
+      padding: 4px 20px 20px;
+      flex-flow: column nowrap;
+      align-items: center;
+      background: #fff;
+      border-top: 1px solid #e0e0e0;
+      z-index: 2; }
+      .product_display .product_buy .prices-container h1 {
+        display: none; }
+      .product_display .product_buy .prices-container .prices {
+        font-size: 21px;
+        color: #233540;
+        text-align: left;
+        align-self: center; }
+        .product_display .product_buy .prices-container .prices .reduced {
+          color: #5a6870;
+          font-size: 19px;
+          text-decoration: line-through;
+          margin-right: 5px; }
+        .product_display .product_buy .prices-container .prices small {
+          font-size: 14px;
+          margin-left: 5px; }
+      .product_display .product_buy .prices-container button {
+        width: 100%; }
+      .product_display .product_buy .prices-container .reviews-summary {
+        display: none; }
+    .product_display .product_buy .details-container {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 24px;
+      margin-bottom: 12px;
+      font-size: 1em;
+      border-bottom: 1px solid #e0e0e0; }
+      .product_display .product_buy .details-container h2,
+      .product_display .product_buy .details-container h3 {
+        letter-spacing: 0.1em;
+        font-family: "Lato", helvetica, arial, sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 1em; }
+      .product_display .product_buy .details-container p {
+        margin-bottom: 20px;
+        width: 100%; }
+        .product_display .product_buy .details-container p:last-child {
+          margin-bottom: 0px; }
+    .product_display .product_buy .options-container {
+      display: flex;
+      flex-flow: column; }
+      .product_display .product_buy .options-container .options .title {
+        letter-spacing: 0.1em;
+        font-family: "Lato", helvetica, arial, sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 1em; }
+      .product_display .product_buy .options-container .options ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin: 0 auto 10px; }
+        .product_display .product_buy .options-container .options ul li {
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          padding: 12px 0;
+          width: 100%;
+          max-width: 105px;
+          cursor: pointer; }
+          .product_display .product_buy .options-container .options ul li div {
+            width: 100%;
+            font-size: 11px;
+            font-weight: 600; }
+          .product_display .product_buy .options-container .options ul li .image {
+            border: 4px solid transparent;
+            margin: 0 auto 5px auto;
+            padding: 12px 12px;
+            height: 72px; }
+            .product_display .product_buy .options-container .options ul li .image img {
+              display: block;
+              margin: 0 auto;
+              height: 100%;
+              height: -moz-available;
+              height: -webkit-fill-available; }
+          .product_display .product_buy .options-container .options ul li.selected .image {
+            border: 4px solid #4a555d; }
+      .product_display .product_buy .options-container select {
+        display: none; }
+  .product_display .carousel_thumb-holder {
+    display: none;
+    padding: 0; }
+    .product_display .carousel_thumb-holder .carousel_thumb {
+      position: relative;
+      margin: 0; }
+      .product_display .carousel_thumb-holder .carousel_thumb img {
+        margin: 0;
+        border: none; }
+    .product_display .carousel_thumb-holder .carousel_thumb.selected::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 5px;
+      border: 12px solid #fff;
+      border-color: #fff transparent transparent transparent; }
+
+aside.trustpilot-wrapper {
+  margin-bottom: 0px; }
+  aside.trustpilot-wrapper .trustpilot-product-mini {
+    align-items: flex-start; }
+  aside.trustpilot-wrapper .trustpilot-loading.mini {
+    place-content: start; }
+    aside.trustpilot-wrapper .trustpilot-loading.mini img {
+      max-width: fit-content; }
+
+aside.usp h3 {
+  letter-spacing: 0.1em;
+  font-family: "Lato", helvetica, arial, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1em; }
+
+aside.usp > p {
+  font-size: 1em; }
+
+aside.usp .usp-list {
+  list-style: none;
+  margin: 30px 0px 60px; }
+  aside.usp .usp-list li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 24px;
+    color: #233540; }
+    aside.usp .usp-list li div.text {
+      width: 100%; }
+    aside.usp .usp-list li div:first-child span.i {
+      height: 2em;
+      width: 2em;
+      margin: 0.45em 1.5em 0 0;
+      filter: invert(40%) sepia(7%) saturate(871%) hue-rotate(158deg) brightness(94%) contrast(87%); }
+    aside.usp .usp-list li p {
+      font-size: 1em; }
+    aside.usp .usp-list li a {
+      display: flex;
+      flex-direction: row; }
+      aside.usp .usp-list li a h4 {
+        letter-spacing: 0.1em;
+        font-family: "Lato", helvetica, arial, sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 14px; }
+      aside.usp .usp-list li a span.i {
+        height: 1.2em; }
+      aside.usp .usp-list li a .more {
+        margin-top: 12px; }
+      aside.usp .usp-list li a:hover div {
+        color: #c12a49; }
+        aside.usp .usp-list li a:hover div h4,
+        aside.usp .usp-list li a:hover div p {
+          color: inherit; }
+        aside.usp .usp-list li a:hover div span.i {
+          filter: invert(23%) sepia(32%) saturate(5714%) hue-rotate(330deg) brightness(90%) contrast(88%); }
+
+aside.recommendations {
+  margin-top: 40px; }
+  aside.recommendations header {
+    text-align: center;
+    padding: 40px 15px; }
+    aside.recommendations header h6 {
+      letter-spacing: 0.1em;
+      font-family: "Lato", helvetica, arial, sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 14px; }
+  aside.recommendations .product-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding: 0 0 20px 0;
+    overflow-x: auto; }
+    aside.recommendations .product-grid.scrolling article a {
+      cursor: grabbing; }
+    aside.recommendations .product-grid::-webkit-scrollbar {
+      width: 10px;
+      height: 10px; }
+    aside.recommendations .product-grid::-webkit-scrollbar-thumb {
+      background: #cacaca;
+      border-radius: 10px; }
+    aside.recommendations .product-grid::-webkit-scrollbar-track {
+      background: transparent; }
+    aside.recommendations .product-grid article {
+      flex: 1 0 auto;
+      max-width: 180px;
+      min-height: 100px;
+      width: 100%;
+      margin: 0.5em;
+      border: none; }
+      aside.recommendations .product-grid article .caption {
+        display: none; }
+
+#cardsWrapper .card-editor .card-editor-title {
+  text-align: left; }
+
+#cardsWrapper .card-editor .card-overlay {
+  position: fixed; }
+
+#cardsWrapper .card-editor .card-form {
+  padding: 12px; }
+  #cardsWrapper .card-editor .card-form .cards-buttom {
+    margin-right: 1%; }
+    #cardsWrapper .card-editor .card-form .cards-buttom img {
+      width: 120px; }
+  #cardsWrapper .card-editor .card-form .message {
+    width: 100%;
+    margin-top: 0px; }
+  #cardsWrapper .card-editor .card-form .message-actions {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+
+#showCardEditor {
+  width: fit-content; }
+
+/**
+  Overides smile, footer and gorgias buttons 
+**/
+@media screen and (max-width: 768px) {
+  #smile-ui-container {
+    z-index: 1 !important; }
+    #smile-ui-container .smile-launcher-frame-container {
+      bottom: 100px !important;
+      left: 10px !important; }
+  #chat-button {
+    bottom: 80px !important;
+    right: 10px !important; }
+  body > footer {
+    padding-bottom: 100px; } }
+
+@media screen and (min-width: 1025px) {
+  .product-title--xs {
+    display: none; }
+  .product_display {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between; }
+    .product_display .carousel_thumb-holder {
+      display: flex; }
+    .product_display .product_details {
+      width: 55%; }
+      .product_display .product_details .product_description--lg {
+        display: block; }
+    .product_display .product_buy {
+      width: 40%;
+      max-width: 530px;
+      position: sticky;
+      top: 170px; }
+      .product_display .product_buy .sold-out-mobile {
+        display: none; }
+      .product_display .product_buy .sold-out {
+        display: block;
+        font-weight: 700;
+        text-align: center; }
+      .product_display .product_buy .prices-container {
+        position: relative;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        margin-bottom: 12px;
+        padding: 0 0 12px 0;
+        border-top: none;
+        border-bottom: 1px solid #e0e0e0; }
+        .product_display .product_buy .prices-container h1 {
+          display: block;
+          line-height: 1.2; }
+        .product_display .product_buy .prices-container .reviews-summary {
+          display: flex; }
+        .product_display .product_buy .prices-container button {
+          width: auto;
+          white-space: nowrap; }
+  .product_description--sm {
+    display: none; }
+  .product_description .title {
+    text-align: center;
+    margin: 24px 0; }
+  aside.recommendations {
+    border-top: 1px solid #e0e0e0;
+    margin-top: 40px; }
+    aside.recommendations header {
+      text-align: center;
+      padding: 40px 15px; }
+    aside.recommendations .product-grid {
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap; }
+      aside.recommendations .product-grid article {
+        flex: auto;
+        width: 25%;
+        padding: 5px;
+        margin: 0;
+        max-width: none; }
+        aside.recommendations .product-grid article:nth-child(9), aside.recommendations .product-grid article:nth-child(10) {
+          display: none; }
+        aside.recommendations .product-grid article .caption {
+          display: block;
+          font-size: 11px;
+          letter-spacing: 0.1em; }
+          aside.recommendations .product-grid article .caption .h3 {
+            font-size: 13px;
+            letter-spacing: 0.1em; }
+  #cardsWrapper .card-editor .card-form .message {
+    width: 70%;
+    margin-top: 0px; }
+  .carousel_pos_btn {
+    display: none; } }

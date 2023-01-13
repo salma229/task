@@ -1,0 +1,106 @@
+/* CSS units */
+p{
+font-size: 2rem;
+border: 3px solid;
+}
+html{
+font-size: 10px;
+
+
+}
+.vh unit{
+
+
+
+    width: 70vh;
+    background-color: blue;
+    height: 15vh;
+    margin: 70px;
+}
+.vw unit{
+width: 50vw;
+background-color:green;
+height:50vw ;
+
+}
+.p1{
+font-size: 2px;
+font-size: 2em;
+border: 3px solid;
+background-color: aqua;
+
+}
+.vhunit{
+width: 50vh;
+height: 50vh;
+background-color: bisque;}
+
+.p2{
+font-size:2rem ;
+border:3px solid ;
+background-color: brown;
+
+}
+.p3{
+font-size: 2rem;
+border: 3px solid;
+background-color: darkgreen;
+
+}
+.p4{
+    font-size: 2rem;
+    border: 3px solid;
+background-color: hotpink;
+
+}
+.p5{
+    font-size: 2rem;
+    border: 3px solid;
+background-color: lightpink;
+}
+
+@media(min-width:1200px
+){
+body{
+
+  background-color: brown;  
+}
+@media(min-width: 1000px){
+
+body{
+background-color: aqua;
+
+
+}
+
+}
+
+}
+@media(min-width:1000px) and (max-width1200px){
+body{
+
+background-color: hotpink;
+
+
+}
+
+
+}
+html{
+font-size: 30px;
+
+
+}
+@media(min-width:700px) and (max-width:999px)
+body{
+
+background-color: green;
+
+}
+html{
+font-size: 15px;
+
+
+}
+
+

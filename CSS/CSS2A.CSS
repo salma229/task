@@ -1,0 +1,45 @@
+.submit{
+
+background-color: aqua; margin: 10px; padding: 7px 4px 7px 4px;
+cursor: pointer; color: ;
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,119,121,1) 35%, rgba(0,212,255,1) 100%);
+text-decoration: none;
+color: blueviolet;
+background-color: rgb(179, 179, 48);
+border-radius: 10%;
+
+}
+
+.cancel{
+border-radius: 10%;;
+background-color: aqua; margin: 10px; padding: 7px 4px 7px 4px;
+cursor: pointer;
+background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%)
+
+}
+
+
+
+
+
+.submit:hover{
+color: blanchedalmond;
+
+
+
+}
+
+.submit:active{
+
+background: crimson;
+
+
+}
+
+.submit:visited{
+
+background: rgb(4, 236, 4);
+
+}

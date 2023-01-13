@@ -1,0 +1,19 @@
+.item1{grid-area: item1;}
+.item2{grid-area: item2;}
+.item3{grid-area: item3;}
+.item4{grid-area: item4;}
+.item5{grid-area: item5;}
+
+
+.container{
+
+background-color: antiquewhite;
+display: grid;
+
+
+
+}
+.item1,.item2,.item3,.item4,.item5{
+background-color: aqua;
+
+}

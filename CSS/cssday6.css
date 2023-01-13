@@ -1,0 +1,39 @@
+:root{
+--white: blue;
+--shadow: 50px 50px 30px 30px red;
+--text: center;
+--color: gold;
+}
+h1{
+background-color:var(--white) ;
+text-align: var(--text)
+
+
+}
+h2{
+background-color: var(--white);
+text-shadow: var(--shadow);
+color:var(--color) ;
+}
+
+.animation{
+
+    width: 150px;
+    height: 100px;
+    background-color: aquamarine;
+    animation-name: divanimation;
+    animation-duration: 4s;
+    position: relative;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+    
+}
+@keyframes divanimation {
+
+    0%{background-color: aquamarine;left: 0px; top: 0px;}
+    40%{ background-color: blueviolet;left: 170px; top: 0px;}
+    50%{background-color: green;left: 170px; top: 60px;}
+    70%{background-color: gold;left: 0px; top: 60px;}
+    100%{background-color: aqua;left: 0px; top: 0px;}
+    
+    }

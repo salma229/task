@@ -1,0 +1,291 @@
+/* colors for the sustainability report */
+/* colors for widget trustpilot */
+/*
+$font-body: AvenirNextLTW01-Regular,helvetica,arial,sans-serif;
+$font-header: P22UndergroundW01-Mediu,helvetica,arial,sans-serif;
+*/
+#card-loading {
+  display: none;
+  flex-direction: column;
+  padding: 12px;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  z-index: 1001;
+  max-width: 90%;
+  height: auto;
+  padding: 24px;
+  background: none;
+  border: none; }
+  #card-loading div {
+    color: #fff; }
+  #card-loading .lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px; }
+  #card-loading .lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border: 8px solid #fff;
+    border-color: #fff transparent transparent transparent; }
+  #card-loading .lds-ring div:nth-child(1) {
+    animation-delay: -0.45s; }
+  #card-loading .lds-ring div:nth-child(2) {
+    animation-delay: -0.3s; }
+  #card-loading .lds-ring div:nth-child(3) {
+    animation-delay: -0.15s; }
+
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+  #card-loading.show {
+    display: flex; }
+
+#card-error {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 90px auto;
+  color: #e40000; }
+  #card-error a {
+    text-decoration: underline;
+    padding: 10px;
+    cursor: pointer; }
+
+#card-overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  right: 0;
+  z-index: 1000;
+  display: none; }
+  #card-overlay.show {
+    display: block; }
+
+#card-select .box-title,
+#card-message .box-title {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #233540; }
+  #card-select .box-title .action span.i,
+  #card-message .box-title .action span.i {
+    margin-right: 0;
+    width: 2.2rem;
+    height: 2.2rem;
+    padding: 5px;
+    cursor: pointer; }
+    #card-select .box-title .action span.i.back,
+    #card-message .box-title .action span.i.back {
+      width: 2rem;
+      height: 2rem; }
+    #card-select .box-title .action span.i.hidden-sm,
+    #card-message .box-title .action span.i.hidden-sm {
+      display: none; }
+  #card-select .box-title .text,
+  #card-message .box-title .text {
+    text-transform: uppercase;
+    font-family: "Josefin Sans", helvetica, arial, sans-serif;
+    font-size: 15px;
+    margin: 3px 34px 0 0;
+    text-align: center;
+    width: 100%; }
+
+#card-select {
+  display: none; }
+  #card-select .card-wrapper {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 10%;
+    bottom: 50px;
+    z-index: 1001;
+    width: 90%;
+    max-width: 1020px;
+    height: auto;
+    padding: 12px 20px;
+    background: #fff;
+    border: 1px solid #233540; }
+    #card-select .card-wrapper .content {
+      height: calc(90% - 36px);
+      overflow: hidden; }
+      #card-select .card-wrapper .content .categories {
+        overflow-y: auto;
+        min-width: 215px;
+        height: 100%;
+        margin-top: 24px;
+        padding-bottom: 24px; }
+        #card-select .card-wrapper .content .categories ul {
+          display: flex;
+          flex-direction: column; }
+          #card-select .card-wrapper .content .categories ul li {
+            text-transform: uppercase;
+            text-align: center;
+            padding: 16px;
+            background: #233540;
+            color: #fff;
+            font-size: 12px;
+            font-family: "Josefin Sans", helvetica, arial, sans-serif;
+            letter-spacing: 0.2em;
+            cursor: pointer; }
+            #card-select .card-wrapper .content .categories ul li:not(:last-child) {
+              margin-bottom: 12px; }
+            #card-select .card-wrapper .content .categories ul li:hover {
+              background: #c12a49; }
+            #card-select .card-wrapper .content .categories ul li.no-card-btn {
+              background: #fff;
+              color: #233540;
+              border: 1px solid #233540; }
+              #card-select .card-wrapper .content .categories ul li.no-card-btn:hover {
+                background: #e0e0e0;
+                border-color: #e0e0e0; }
+        #card-select .card-wrapper .content .categories.selected {
+          display: none; }
+      #card-select .card-wrapper .content .cards {
+        overflow-y: auto;
+        height: 100%;
+        padding: 20px 0; }
+        #card-select .card-wrapper .content .cards .card-group {
+          display: none;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: center; }
+          #card-select .card-wrapper .content .cards .card-group .card {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            max-width: 208px;
+            text-align: center;
+            margin: 6px;
+            border: 4px solid transparent; }
+            #card-select .card-wrapper .content .cards .card-group .card.selected {
+              border: 4px solid #4a555d; }
+              #card-select .card-wrapper .content .cards .card-group .card.selected > .btn {
+                visibility: hidden; }
+            #card-select .card-wrapper .content .cards .card-group .card .btn {
+              padding: 8px 30px 5px; }
+          #card-select .card-wrapper .content .cards .card-group.show {
+            display: flex; }
+  #card-select.show {
+    display: block; }
+
+#card-message {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 678px;
+  width: 80%;
+  height: auto;
+  padding: 12px 20px;
+  background: #fff;
+  border: 1px solid #233540;
+  z-index: 1000;
+  display: none; }
+  #card-message .card-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 12px;
+    border: 1px solid #4a555d;
+    border-top: none; }
+    #card-message .card-form .open-cards-button {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      height: fit-content;
+      margin-bottom: 12px;
+      cursor: pointer; }
+      #card-message .card-form .open-cards-button span {
+        font-size: 14px;
+        text-decoration: underline; }
+      #card-message .card-form .open-cards-button img {
+        max-width: 150px;
+        padding: 0 12px 12px 0; }
+    #card-message .card-form .message {
+      width: 100%;
+      max-width: 450px; }
+      #card-message .card-form .message textarea {
+        width: 100%;
+        min-height: 150px;
+        font-size: 16px;
+        padding: 10px;
+        border: 2px solid #e0e0e0;
+        border-radius: 2px;
+        box-sizing: border-box; }
+      #card-message .card-form .message > div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; }
+        #card-message .card-form .message > div .message-actions {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          margin: 0 10px; }
+          #card-message .card-form .message > div .message-actions label {
+            font-size: 16px; }
+        #card-message .card-form .message > div .message-counter {
+          font-size: 13px; }
+    #card-message .card-form .message-info {
+      width: 100%;
+      text-align: center;
+      margin: 8px;
+      padding: 8px;
+      background: #e6e6e6; }
+    #card-message .card-form.no-card {
+      flex-direction: column; }
+  #card-message .action-buttons {
+    display: flex;
+    margin-top: 12px;
+    justify-content: space-around;
+    flex: 1; }
+    #card-message .action-buttons button {
+      padding: 15px 15px 13px;
+      min-width: 160px; }
+      #card-message .action-buttons button:disabled {
+        background-color: #999;
+        border-color: #999;
+        color: #fff; }
+        #card-message .action-buttons button:disabled:hover {
+          background-color: #999;
+          border-color: #999;
+          color: #fff; }
+  #card-message.show {
+    display: block; }
+
+@media only screen and (min-width: 1060px) {
+  #card-select .box-title .action span.i.back {
+    display: none; }
+  #card-select .box-title .action span.i.close.hidden-sm {
+    display: block; }
+  #card-select .card-wrapper .content {
+    display: flex;
+    flex-direction: row; }
+    #card-select .card-wrapper .content .categories ul {
+      flex-direction: column; }
+      #card-select .card-wrapper .content .categories ul li {
+        margin-right: 0; }
+        #card-select .card-wrapper .content .categories ul li:not(:last-child) {
+          margin-bottom: 10px; }
+        #card-select .card-wrapper .content .categories ul li.selected {
+          background: #c12a49; }
+    #card-select .card-wrapper .content .categories.selected {
+      display: block; }
+    #card-select .card-wrapper .content .cards {
+      margin-left: auto; }
+  .card-form .cards-buttom img.in-cart {
+    max-width: 140px;
+    margin: 26px 5px 0 0; } }

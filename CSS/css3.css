@@ -1,0 +1,93 @@
+/*Float in CSS */
+.div1{
+height:150px;
+width:300px;
+background-color: aqua;
+float: left;
+margin-right: 20px;
+}
+.image1{
+width:70px;
+height:70px;
+border-radius: 50%;
+float:left;
+
+}.profilename{
+font-weight: bold;
+margin-top: 30px;
+
+}
+
+.container{
+
+border:1px white solid;
+
+}
+.div2{
+height: 200px;
+width: 150px;
+background-color: blanchedalmond;
+
+
+}
+.image2{
+float:left;
+margin-right: 20px;
+clear:left;
+
+}
+.pclear{
+border:2px solid;
+clear: left;
+overflow: auto;
+
+}
+.image3{
+float: left;
+margin-right: 20px;
+
+}
+.image4{
+border:2px solid;
+clear: left;
+overflow: auto;
+
+}
+
+.position1{
+width: 300 px;
+height: 250 px;
+background-color: bisque;
+text-align: center;
+vertical-align: middle;
+line-height: 250px;
+
+
+
+}
+.position2{
+
+    width: 300 px;
+    height: 250 px;
+    background-color: brown;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 250px;
+
+
+
+
+}
+.position3{
+
+    width: 300 px;
+    height: 250 px;
+    background-color: blue;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 250px;
+
+
+
+
+}

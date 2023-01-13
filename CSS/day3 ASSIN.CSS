@@ -1,0 +1,116 @@
+.div1{
+height: 100px;
+width: 100px;
+background-color: black;
+border: solid; border-color: brown;
+border-radius: 15%;
+}
+.image1{
+height: 100px;
+width: 100px;
+border-radius: 15%;
+}
+.div2{
+    
+    border: solid;border-color: firebrick;border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: relative;bottom: 15px
+    
+}
+.image2{
+
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    }
+.div3{
+border: solid;border-color: blue;border-radius: 10%;
+    height: 100px;
+    width: 100px;
+    background-color:blueviolet;
+margin-left: 50px;position: relative;bottom: 45px
+}
+.image3{
+
+    height: 100px;
+    width: 100px;
+    border-radius: 10%
+
+}
+.div4{
+
+border: solid;border-color: darkgreen;border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color:blueviolet;
+position: relative;bottom: 50px;margin-left: 70px;
+
+
+}
+.image4{
+
+
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+.div5:hover{
+
+border: solid;border-color: hotpink;border-radius:25%; 
+    height: 100px;
+    width: 100px;
+    background-color:blueviolet;
+position: relative;bottom: 50px;margin-left: 70px;
+
+cursor: pointer; display: block;
+}
+.image5{
+
+    height: 100px;
+    width: 100px;
+    border-radius: 25%;
+
+
+}
+.div6{
+
+
+border: solid;border-color: aquamarine;border-radius: 75%;
+    height: 100px;
+    width: 100px;
+    background-color:blueviolet;
+position: relative;bottom: 50px;margin-left: 35px;
+
+
+}
+.image6{
+
+
+    height: 100px;
+    width: 100px;
+    border-radius: 75%;
+
+
+}
+.div7{
+
+border: solid;border-color: blue;border-radius: 45%;
+    height: 100px;
+    width: 100px;
+    background-color:blueviolet;
+    position: relative;bottom: 25px;margin-left: 75px;
+cursor: pointer; display: block;
+
+}
+.image7{
+
+    height: 100px;
+    width: 100px;
+    border-radius: 45%;
+
+}
+
+

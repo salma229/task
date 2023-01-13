@@ -1,0 +1,25 @@
+div{
+width:400px ;
+height: 200px;
+border: 2px solid;
+
+}
+.image1{
+    height: 300px;
+transform: rotate(340deg)
+
+}
+.image2{
+transform: skew(50deg, 20deg);
+
+
+
+}
+.image3:hover{
+transition: transform 2s;
+transform: rotate(20deg);
+height: 300px;
+
+}
+
+
